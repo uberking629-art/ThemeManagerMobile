@@ -1,3 +1,4 @@
+
 local cloneref = (cloneref or clonereference or function(instance: any) return instance end)
 local httpService = cloneref(game:GetService('HttpService'))
 local httprequest = (syn and syn.request) or request or http_request or (http and http.request)
@@ -289,10 +290,10 @@ local ThemeManager = {} do
 
 	--// GUI \\--
 	function ThemeManager:CreateThemeManager(groupbox)
-	groupbox:AddLabel('Background color'):AddColorPicker('BackgroundColor', { Default = Color3.fromRGB(5, 5, 8) });
-groupbox:AddLabel('Main color'):AddColorPicker('MainColor', { Default = Color3.fromRGB(10, 10, 15) });
-groupbox:AddLabel('Accent color'):AddColorPicker('AccentColor', { Default = Color3.fromRGB(168, 85, 247) });
-groupbox:AddLabel('Outline color'):AddColorPicker('OutlineColor', { Default = Color3.fromRGB(124, 58, 237) });
+	groupbox:AddLabel('Background color'):AddColorPicker('BackgroundColor', { Default = Color3.fromRGB (0, 0, 0) });
+groupbox:AddLabel('Main color'):AddColorPicker('MainColor', { Default = Color3.fromRGB(10, 10, 10) });
+groupbox:AddLabel('Accent color'):AddColorPicker('AccentColor', { Default = Color3.fromRGB(147, 51, 234) });
+groupbox:AddLabel('Outline color'):AddColorPicker('OutlineColor', { Default = Color3.fromRGB(147, 51, 234) });
 groupbox:AddLabel('Font color'):AddColorPicker('FontColor', { Default = Color3.fromRGB(255, 255, 255) });
 
 		local ThemesArray = {}
