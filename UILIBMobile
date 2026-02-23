@@ -93,13 +93,13 @@ local Library = {
 
    FontColor = Color3.fromRGB(255, 255, 255);
 
-MainColor = Color3.fromRGB(10, 10, 15);
-BackgroundColor = Color3.fromRGB(5, 5, 8);
+MainColor = Color3.fromRGB(10, 10, 10);
+BackgroundColor = Color3.fromRGB(0, 0, 0);
 
-AccentColor = Color3.fromRGB(147, 51, 234); -- Purple
+AccentColor = Color3.fromRGB(147, 51, 234);
 DisabledAccentColor = Color3.fromRGB(90, 60, 140);
 
-OutlineColor = Color3.fromRGB(124, 58, 237); -- Purple outline
+OutlineColor = Color3.fromRGB(147, 51, 234);
 DisabledOutlineColor = Color3.fromRGB(60, 40, 90);
 
 DisabledTextColor = Color3.fromRGB(142, 142, 142);
@@ -1060,7 +1060,7 @@ do
             Library:Create('ImageLabel', {
                 BackgroundTransparency = 1;
                 Size = UDim2.new(1, 0, 1, 0);
-                Image = 'http://www.roblox.com/asset/?id=12978095818';
+                Image = 'http://www.roblox.com/asset/?id=75370284529088';
                 ZIndex = 20;
                 Parent = TransparencyBoxInner;
             });
